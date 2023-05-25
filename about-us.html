@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKASON О нас</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <a class="header__link" href="master.html">Мастер-классы</a>
+        <a class="header__link" href="to-order.html">Мебель на заказ</a>
+        <a class="header__link" href="index.html"><img src="images/Logo.png" alt="Logo"></a>
+        <a class="header__link" href="about-us.html">О нас</a>
+        <a class="header__link" href="contacts.html">Контакты</a>
+        <button class="header__mobile" onclick="openMenu()">
+            <span class="burger-menu"></span>
+        </button>
+        <div id="mobileMenu" class="drop-down-menu">
+            <a class="header__link display_block" href="index.html">Главная</a>
+            <a class="header__link display_block" href="master.html">Мастер-классы</a>
+            <a class="header__link display_block" href="to-order.html">Мебель на заказ</a>
+            <a class="header__link display_block" href="about-us.html">О нас</a>
+            <a class="header__link display_block" href="contacts.html">Контакты</a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__indent">
+            <p class="title title_center">История создания мастерской<br>NIKASON BRAND</p>
+            <div class="intro intro_column intro_bg-img-4"></div>
+            <div class="description title_center">
+                <div>
+                    <p class="title">+10 лет</p>
+                    <p>На рынке по производству мебели</p>
+                </div>
+                <div>
+                    <p class="title">+1500</p>
+                    <p>Изготовлено мебели</p>
+                </div>
+                <div>
+                    <p class="title">120 лет</p>
+                    <p>Самой старинной мебели для реставрации </p>
+                </div>
+            </div>
+            <div class="intro">
+                <img class="intro__img intro__img_width_35" src="images/contant/IMG_44201(1).jpg" alt="никита">
+                <div class="intro__text-box intro__text-box_width_65">
+                    <p class="title title_size_middle">Никита Колодезников-Матчитов</p>
+                    <p>Основатель мастерской</p>
+                    <p>С детства я был окружен творческими людьми, мой дедушка был строителем и мастером по дереву. 
+                        Спустя много лет и мне передалась его любовь к дереву - 
+                        в свободное время мастерил для себя небольшие  изделия из древесины.</p>
+                    <p>Более десяти лет назад построил двухэтажный гараж, на втором этаже расположилась наша мастерская. 
+                        Начинал производство практически “с нуля”, с каждой зарплаты понемногу откладывал на покупку инстурментов и станков.</p>
+                    <p>Постепенно начали появляться первые заказы. 
+                        Несколько лет назад мы с супругой решили еще заняться ремонтом и реставрацией мебели. 
+                        Эту идею предложили сами клиенты, поскольку периодически приходили с таким запросом. 
+                        В основном, реставрацией занимается супруга Саргылана. Мы с ней одна сплоченная, дружная и отличная команда.</p>
+                </div>
+            </div>
+            <p class="title">Философия мастерской NIKASON</p>
+            <p class="title title_size_middle title_right">Создавать что-то по-настоящему ценное и уникальное.<br>Дарить радость и уют в каждый дом</p>
+            <p class="title">Оставьте заявку и мы с вами свяжемся</p>
+            <div class="center">
+                <a id="whatsapp" class="button button_I button_center"  target="_blank" href="https://api.whatsapp.com/send?phone=79679272227"><p>Оставить заявку</p></a>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <p>ИП Фамилия И.О.</p>
+            <p>УНП 123456789123456</p>
+        </div>
+        <div>
+            <p><a class="footer__link" href="index.html">Главная</a></p>
+            <p><a class="footer__link" href="master.html">Мастер-классы</a></p>
+        </div>
+        <div>
+            <p><a class="footer__link" href="to-order.html">Мебель на заказ</a></p>
+            <p><a class="footer__link" href="about-us.html">О нас</a></p>            
+        </div>
+        <div>
+            <p><a class="footer__link" href="contacts.html">Контакты</a></p>
+        </div>
+    </footer>
+    <script src="scripts/drop-menu.js"></script>
+</body>
+</html>

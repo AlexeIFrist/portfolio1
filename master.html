@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKASON Мастер-классы</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <a class="header__link" href="master.html">Мастер-классы</a>
+        <a class="header__link" href="to-order.html">Мебель на заказ</a>
+        <a class="header__link" href="index.html"><img src="images/Logo.png" alt="Logo"></a>
+        <a class="header__link" href="about-us.html">О нас</a>
+        <a class="header__link" href="contacts.html">Контакты</a>
+        <button class="header__mobile" onclick="openMenu()">
+            <span class="burger-menu"></span>
+        </button>
+        <div id="mobileMenu" class="drop-down-menu">
+            <a class="header__link display_block" href="index.html">Главная</a>
+            <a class="header__link display_block" href="master.html">Мастер-классы</a>
+            <a class="header__link display_block" href="to-order.html">Мебель на заказ</a>
+            <a class="header__link display_block" href="about-us.html">О нас</a>
+            <a class="header__link display_block" href="contacts.html">Контакты</a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="intro intro_column intro_bg-img-1">
+            <p class="title">Нам доверяют мебель с историей в 120 лет</p>
+            <a class="button button_MK" href="#MK"><p>Смотреть мастер-классы</p></a>
+        </div>
+       <div class="main__indent">
+            <p class="title">Наши работы</p>
+            <div class="table-img table-img_gap">
+                <figure>
+                    <img src="images/contant/Rectangle53.jpg" alt="Шкаф">
+                    <figcaption>До</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/contant/Rectangle54.jpg" alt="Шкаф">
+                    <figcaption>после</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/contant/Rectangle55(2).jpg" alt="Комод">
+                    <figcaption>До</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/contant/Rectangle56.jpg" alt="Комод">
+                    <figcaption>после</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/contant/Rectangle57.jpg" alt="Шкаф">
+                    <figcaption>До</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/contant/Rectangle59.jpg" alt="Шкаф">
+                    <figcaption>после</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/contant/Rectangle58.jpg" alt="Кесло">
+                    <figcaption>До</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/contant/Rectangle60.jpg" alt="Кресло">
+                    <figcaption>после</figcaption>
+                </figure>
+            </div>
+            <p class="title">Какие техники изучите на МК</p>
+            <ul class="list">
+                <li class="list__box">
+                    <div class="circle line"><p>1</p></div>
+                    <p>Снятие старой краски</p>
+                </li>
+                <li class="list__box">
+                    <div class="circle line"><p>2</p></div>
+                    <p>Устранение царапин и мелких дефектов</p>
+                </li>
+                <li class="list__box">
+                    <div class="circle line"><p>3</p></div>
+                    <p>Ремонт маленьких и  больших сколов</p>
+                </li>
+                <li class="list__box">
+                    <div class="circle line"><p>4</p></div>
+                    <p>Ремонт поломанной и расклеившейся мебели</p>
+                </li>
+                <li class="list__box">
+                    <div class="circle line"><p>5</p></div>
+                    <p>Замена старых поврежденных деталей</p>
+                </li>
+                <li class="list__box">
+                    <div class="circle line"><p>6</p></div>
+                    <p>Приемы и идеи декора. Улучшение дизайна старой мебели</p>
+                </li>
+                <li class="list__box">
+                    <div class="circle"><p>7</p></div>
+                    <p>Покраска изделия</p>
+                </li>
+            </ul>
+       </div>
+       <div class="intro intro_column intro_bg-img-2">
+            <p class="title">Подари вторую жизнь старой мебели<br>и сохрани историю вашей семьи</p>
+        </div>
+        <div class="main__indent">
+            <p id="MK" class="title">Мастер-классы по реставрации мебели</p>
+            <div class="table-img table-img_gap">
+                <a href="#" id="openedMK" class="link-MK" onclick="openedModalMK()">
+                    <figure>
+                        <img src="images/contant/IMG_56331(1).png" alt="буфет">
+                        <figcaption>Буфет</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="intro">
+                <div class="intro__text-box"> 
+                    <p class="title">Руководство по редизайну деревянной мебели</p>
+                    <p>Здесь мы собрали всю информацию от подбора инстурментов и материалов до сборки мебели и фурнитуры. 
+                        Чтобы вы самостоятельно могли разобраться с нюансами работы со старой мебелью из дерева. 
+                        Наше руководство непременно станет вашей настольной книгой по реставрации мебели.</p>
+                    <a class="button button_I" href="#" id="opened" onclick="openedModal()"><p>Подробнее</p></a>
+                </div>
+                <img class="intro__img table-img_border" src="images/photo.webp" alt="реставрируй с NIKASON">
+            </div>
+        </div>
+        <div class="modal" id="modalMK">
+            <button type="button" class="modal__off" onclick="closedModalMK()">&#10006;</button>
+            <div class="modal__content">
+                <div class="modal__gallery">
+                    <img src="images/contant/IMG_56331(1).png" alt="буфет">
+                </div>
+                <div>
+                    <p class="title">Буфет</p>
+                    <p class="title title_size_middle">2990 р.</p>
+                    <a class="button button_I" target="_blank" href="https://api.whatsapp.com/send?phone=79679272227">
+                        <p>Купить</p>
+                    </a>
+                    <p>На мастер-классе мы разберем:</p>
+                    <ol>
+                        <li>разборка мебели и фурнитуры</li>
+                        <li>удаление старой краски</li>
+                        <li>ремонт</li>
+                        <li>нанесение краски, декор</li>
+                        <li>сборка мебели и установка фурнитуры</li>
+                    </ol>
+                    <p>После оплаты вы получите ссылку на видео-урок на указанную вами почту.</p>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal">
+            <button type="button" class="modal__off" onclick="closedModal()">&#10006;</button>
+            <div class="modal__content">
+                <div class="modal__gallery">
+                    <img class="table-img_border" src="images/photo.webp" alt="реставрируй с NIKASON">
+                </div>
+                <div>
+                    <p class="title">Руководство по редизайну деревянной мебели</p>
+                    <p>2990 р.</p>
+                    <a class="button button_I" target="_blank" href="https://api.whatsapp.com/send?phone=79679272227">
+                        <p>Купить</p>
+                    </a>
+                    <p>Наш гайд это краткое руководство по реставрации и редизайну старинной мебелеи из дерева.</p>
+                    <p>Содержание:</p>
+                    <ol>
+                        <li>Инструменты и материалы</li>
+                        <li>Краски, масла и лаки</li>
+                        <li>Разборка мебели и фурнитуры</li>
+                        <li>Снятие старого лакокрасочного покрытия</li>
+                        <li>Устранение повреждений</li>
+                        <li>Подготова к окрашиванию поверхности</li>
+                        <li>Нанесение краски, масла, лака</li>
+                        <li>Сборка мебели, фурнитуры</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <p>ИП Фамилия И.О.</p>
+            <p>УНП 123456789123456</p>
+        </div>
+        <div>
+            <p><a class="footer__link" href="index.html">Главная</a></p>
+            <p><a class="footer__link" href="master.html">Мастер-классы</a></p>
+        </div>
+        <div>
+            <p><a class="footer__link" href="to-order.html">Мебель на заказ</a></p>
+            <p><a class="footer__link" href="about-us.html">О нас</a></p>            
+        </div>
+        <div>
+            <p><a class="footer__link" href="contacts.html">Контакты</a></p>
+        </div>
+    </footer>
+    <script src="scripts/drop-menu.js"></script>
+    <script src="scripts/modal.js"></script>
+</body>
+</html>
